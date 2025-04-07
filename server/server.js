@@ -7,6 +7,9 @@ const PORT = process.env.PORT || 5000;
 
 // Database Connection
 connectDB();
+// Routes
+const authRoutes = require('./routes/authRoutes');
+app.use('/api/auth', authRoutes);
 
 // Middleware
 app.use(express.json());

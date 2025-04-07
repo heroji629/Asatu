@@ -134,3 +134,32 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Asatu-specific additions
+# =======================
+
+# Android Studio/APK files
+*.apk
+*.aab
+*.keystore
+*.swp
+*.ap_
+
+# Sketchware projects
+*.swb
+
+# AI model files (if any)
+*.bin
+*.h5
+*.pt
+
+# Temporary asset previews
+/previews/
+/temp/
+
+# User uploads (if stored locally during development)
+/uploads/
+
+# Mobile development (React Native)
+android/
+ios/
+.expo/
